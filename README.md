@@ -34,7 +34,7 @@ To execute this program, we can use Remix, an online Solidity IDE. Follow these 
 
 
 ### Conclusion
-Understanding require, revert, and assert statements enhances solidity proficiency for secure and reliable smart contract development
+Understanding require, revert, and assert statements enhances our knowledge of solidity for secure and reliable smart contract development
 
 
 
