@@ -13,11 +13,11 @@ This Smart Contract ensures that only Even Numbers are accepted in certain funct
 
  ### Uses of `require`, `revert`, and `assert`
 
-- require: Used in `testRequire(uint _a)` and `setNumber(uint _number)` functions. It ensures that condition i.e. even number are met before proceeding with the function execution. If the condition evaluates to false, the function execution is halted, and any changes made to the blockchain state are reverted.
+- require: Used in `testRequire(uint _a)` and `setNumber(uint _number)` functions. It ensures that condition i.e. even number are met before proceeding with the function execution. 
 
 - revert: Used in `testRevert(uint _a)` function. It provides a way to revert the transaction and revert changes to the blockchain state based on specific conditions e.g., if the input number is not even.
 
-- assert: Used in `testAssert()` function. It is used to check for internal errors and ensure that certain conditions assumed to be true actually hold. If the condition evaluates to false.
+- assert: Used in `testAssert()` function. It is used to check for internal errors and ensure that certain conditions assumed to be true actually hold. 
 
 ## Executing program
 To execute this program, we can use Remix, an online Solidity IDE. Follow these steps:
