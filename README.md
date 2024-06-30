@@ -8,7 +8,7 @@ This Smart Contract helps us in calculating the total price of the items of a sm
 - Solidity Compiler: Version `^0.8.25`
 - priceCondition: Checks if the input `_price` is more than 0 using the `require` statement.
 - addtoCart: Checks if the input `_price` is mor than 0 then using if else statements it provides us total otherwise throws an message using the `revert` statement.
-- assertCondition(): Asserts that the `number` state variable is equal to 2.
+- assertCondition(): Asserts that the `price` state variable is greater than 0
 
 
 ## Executing program
